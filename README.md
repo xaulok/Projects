@@ -1,0 +1,1 @@
+This optimal approach combines a hash map for timestamp lookups with max/min heaps for efficient price tracking. Hash map provides O(1) updates and current price queries, while heaps enable O(log n) maximum/minimum queries by lazily removing stale entries. Time: O(log n), Space: O(n) 
